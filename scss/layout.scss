@@ -1,13 +1,13 @@
 // Файл с общими стилями
 @font-face {
-  font-family: "DM Sans", sans-serif;
-  src: url(../assets/fonts/);
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-regular.woff2);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "DM Sans", sans-serif;
-  src: url(../assets/fonts/);
+  font-family: "Open Sans", sans-serif;
+  src: url(../assets/fonts/open-sans-v34-latin-700.woff2);
   font-style: normal;
   font-weight: 700;
 }
@@ -24,14 +24,21 @@ button {
   padding: 0;
 }
 body {
-  font-family: "", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  color: #000;
+  color: #24312D;
 }
 .container {
-  max-width: 1220px;
+  max-width: 1280px;
   padding: 0 10px;
   margin: 0 auto;
+}
+// Оформление для заголовков
+.title {
+font-weight: 700;
+font-size: 40px;
+line-height: 1.4;
+color: #0E6C67;
 }
